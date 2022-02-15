@@ -88,7 +88,7 @@ impl IVersion for Counter {
 ```
 Please note that you should change everything named `Counter` to your contract's name. So if your contract is called `X`, then `Counter` should become `X`, and `CounterContract` should become `XContract`.
 
-This will already be creating and exposing the `version` function. All that remains is adding that file as a module in your contract. On `lib.rs`:
+This will already be creating and exposing the `version` function. All that remains is adding that file as a module in your contract. On `src/lib.rs`:
 ```rust
 // ..
 mod version;
